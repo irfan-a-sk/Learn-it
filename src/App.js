@@ -1,19 +1,20 @@
-import './App.css';
-import Navbar from './components/Navbar';
-import Footer from './components/Footer';
-import Headsec from './components/Headsec';
+import "./App.css";
+import { Outlet } from "react-router-dom";
+
+//components
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
+
+
 function App() {
   return (
-   <>
-     <Navbar/>
-     <Headsec/>
-    
+    <>
+      <Navbar />
 
-     
+      <Outlet />
 
-
-     <Footer/>
-   </>
+      <Footer />
+    </>
   );
 }
 
