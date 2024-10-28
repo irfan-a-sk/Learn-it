@@ -10,16 +10,18 @@ import Home from "./pages/Home";
 import Service from "./pages/Service";
 import About from "./pages/About";
 import Community from "./pages/Community";
+import Contact from "./pages/Contact";
 
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route exact path="/" element={<App/>}>
       
-      <Route index element={<Home />} />
+      <Route exact path="home" element={<Home />} />
          <Route exact path="service" element={<Service />} />
          <Route exact path="community" element={<Community />} />
          <Route exact path="about" element={<About />} />
+         <Route exact path="contact" element={<Contact />} />
       
     </Route>
 
