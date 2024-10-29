@@ -1,7 +1,7 @@
 {
   "name": "learn-it",
   "version": "0.1.0",
-  "homepage": "https://irfan-a-sk.github.io/Learn-it",
+  "homepage": "https://irfan-a-sk.github.io",
   "private": true,
   "dependencies": {
     "@headlessui/react": "^0.0.0-insiders.d71fb9c",

@@ -1,3 +1,8 @@
+import { Link } from "react-router-dom";
+
+
+
+// -------Imgaes-------
 import img1 from "../images/img1.jpg";
 import img2 from "../images/img-2.jpg";
 import img3 from "../images/img-3.jpg";
@@ -65,12 +70,12 @@ const Home =() => {
               converts human input into numerical sequences that computers
               understand.
             </p>
-            <a
-              href="/"
+            <Link
+              to="/"
               className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
             >
               Know More
-            </a>
+            </Link>
           </div>
         </div>
 {/* ----------------------------------------Second Section----------------------------- */}
@@ -108,12 +113,12 @@ const Home =() => {
               <p className="text-gray-600 text-[18px] max-lg:text-[13px] mt-[20px] mb-[30px] w-[380px] max-lg:w-[250px]">
               However, if you're learning to code, three months is unlikely to be enough time to become fluent. In general, experts say that you can become relatively comfortable with coding in about six months. Graining the skill to code at a professional level can take a year or more.
               </p>
-              <a
-                href="/"
+              <Link
+                to="/"
                 className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
               >
                 Know More
-              </a>
+              </Link>
             </div>
           </div>
         </div>
