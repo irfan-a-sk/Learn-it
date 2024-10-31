@@ -174,6 +174,32 @@ body {
   /* 2 */
   font-family: font-mono;
 }
+.not-found {
+  text-align: center;
+  padding: 50px;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+}
+.not-found h1{
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.not-found p{
+  font-size: 35px;
+  padding: 35px;
+  margin-bottom: 75px;
+}
+.go-back{
+  font-size: 25px;
+  padding: 25px;
+  color: blue;
+ 
+}
+.go-back:hover{
+  color: royalblue;
+text-decoration: underline;
+}
 
 /*
 1. Add the correct height in Firefox.

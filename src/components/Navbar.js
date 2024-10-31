@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "../images/logo.png";
+import admin from "../images/admin.png";
 import { NavLink } from "react-router-dom";
 
 function Navbar() {
@@ -24,6 +25,12 @@ function Navbar() {
             className="flex items-center space-x-3 rtl:space-x-reverse"
           >
             <img src={logo} className="h-8" alt="Learn-it Logo" />
+          </NavLink>
+          <NavLink
+            to="/"
+            className="absolute right-[2%] flex items-center space-x-3 rtl:space-x-reverse"
+          >
+            <img src={admin} className="max-sm:hidden max-md:hidden w-[30px]" alt="admin-Logo" />
           </NavLink>
           <div className="flex md:order-2  space-x-3 md:space-x-0 rtl:space-x-reverse">
             <button

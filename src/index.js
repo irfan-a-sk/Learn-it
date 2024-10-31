@@ -17,11 +17,15 @@ import About from "./pages/About";
 import Community from "./pages/Community";
 import Contact from "./pages/Contact";
 import Error from "./pages/Error";
+import Sign from "./pages/Sign";
+import Login from "./pages/Login";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<App />}>
-      <Route index element={<Home />} />
+      <Route index element={<Home />}/>
+        <Route exact path="signup" element={<Sign />} />
+        <Route exact path="login" element={<Login />} />
       <Route exact path="service" element={<Service />} />
       <Route exact path="community" element={<Community />} />
       <Route exact path="about" element={<About />} />
