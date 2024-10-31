@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "../images/logo.png";
+import admin from "../images/admin.png";
 import { NavLink } from "react-router-dom";
 
 function Navbar() {
@@ -24,6 +25,12 @@ function Navbar() {
             className="flex items-center space-x-3 rtl:space-x-reverse"
           >
             <img src={logo} className="h-8" alt="Learn-it Logo" />
+          </NavLink>
+          <NavLink
+            to="/"
+            className="absolute right-[2%] flex items-center space-x-3 rtl:space-x-reverse"
+          >
+            <img src={admin} className="max-sm:hidden max-md:hidden w-[30px]" alt="admin-Logo" />
           </NavLink>
           <div className="flex md:order-2  space-x-3 md:space-x-0 rtl:space-x-reverse">
             <button
@@ -119,7 +126,7 @@ function Navbar() {
               </li>
               <li>
                 <NavLink
-                  to="/"
+                  to="/contact"
                   className="block py-2 px-3 text-black-900 rounded hover:bg-blue-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-black dark:hover:bg-blue-700 dark:hover:text-blue md:dark:hover:bg-transparent"
                 >
                   Contact
@@ -152,7 +159,7 @@ function Navbar() {
           </li>
           <li>
             <NavLink
-              to="/cpmmunity"
+              to="/community"
               className="block py-2 px-3 text-black-900 rounded hover:bg-blue-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-black dark:hover:bg-blue-700 dark:hover:text-blue md:dark:hover:bg-transparent"
             >
               Community
@@ -168,7 +175,7 @@ function Navbar() {
           </li>
           <li>
             <NavLink
-              to="/"
+              to="/contact"
               className="block py-2 px-3 text-black-900 rounded hover:bg-blue-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-black dark:hover:bg-blue-700 dark:hover:text-blue md:dark:hover:bg-transparent"
             >
               Contact
