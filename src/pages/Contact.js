@@ -1,3 +1,14 @@
+<<<<<<< HEAD
+const Contact =() => {
+    return(
+        <div>Contact page</div>
+        
+    )
+}
+<div>hi </div>
+
+export default Contact
+=======
 import React from 'react'
 import '../style/cont.css'
 import contact from '../images/Contact.jpg'
@@ -47,3 +58,4 @@ const Contact =() => {
 }
 
 export default Contact
+>>>>>>> 8f77fbefe98f355e827d8627e429571ac04fb978
