@@ -1,16 +1,5 @@
-<<<<<<< HEAD
-const Contact =() => {
-    return(
-        <div>Contact page</div>
-        
-    )
-}
-<div>hi </div>
-
-export default Contact
-=======
 import React from 'react'
-import '../style/cont.css'
+// import '../style/cont.css'
 import contact from '../images/Contact.jpg'
 
 const Contact =() => {
@@ -21,11 +10,11 @@ const Contact =() => {
                 <div className='form'>
                 <h1 className='form-Head'>CONTACT US</h1><br/>
                 <div className='form-content'>
-                <input type="text" placeholder='Enter Your Name'></input><br/>
-                <input type="Email" placeholder='Enter Your Email'></input><br/>
-                <textarea type="text" placeholder='Enter Your Messege'></textarea>
+                <input className='inputs' type="text" placeholder='Enter Your Name'></input><br/>
+                <input className='inputs' type="Email" placeholder='Enter Your Email'></input><br/>
+                <textarea className='msg' type="text" placeholder='Enter Your Messege'></textarea>
                 </div><br/>
-                <button type="submit">SUBMIT</button>
+                <button className='btn' type="submit">SUBMIT</button>
                 </div>
             </form>
           
@@ -58,4 +47,3 @@ const Contact =() => {
 }
 
 export default Contact
->>>>>>> 8f77fbefe98f355e827d8627e429571ac04fb978

@@ -3,7 +3,7 @@ import Wheel from '../images/CycleWheel.jpeg'
 import Girl1 from '../images/Girl1.png'
 import Desk from '../images/Desk.jpg'
 import Girl2 from '../images/Girllook.jpg'
-import '../style/Style.css';
+// import '../style/Style.css';
 
 <link href="https://fonts.googleapis.com/css?family=Bungee+Inline" rel="stylesheet"></link>
 

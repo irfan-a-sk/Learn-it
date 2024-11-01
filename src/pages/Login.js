@@ -158,11 +158,11 @@ const Login = () => {
                 <input
                   type="password"
                   placeholder="Password"
-                  className="block w-[300px] rounded-md border-0 py-1.5 pl-[10px] mt-[-25px] pr-20 text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm/6"
+                  className="block w-[300px] rounded-md border-0 py-1.5 pl-[10px] mt-[5px] pr-20 text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm/6"
                   required
                 />
               </div>
-              <div className="flex gap-2">
+              <div className="flex gap-2 mt-[20px]">
               <Link to="/">
                 <p className="text-[16px] text-center text-black p-[10px] py-[5px] w-[145px] border-2 border-gray-300 rounded-lg ">
                   Forget Password?

@@ -9,7 +9,7 @@
 body{
     background-color: #c9d6ff;
     background: linear-gradient(to right,#e2e2e2,#c9d6ff);
-    background-image: url('C:\project\pclass\Learn-it\src\images\bg.jpg');
+    /* background-image: url('C:\project\pclass\Learn-it\src\images\bg.jpg'); */
     background-size: cover;
 }
 .form{

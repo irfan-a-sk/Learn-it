@@ -14,26 +14,13 @@ import {
 import Home from "./pages/Home";
 import Service from "./pages/Service";
 import About from "./pages/About";
-import Community from "./pages/Community";
+// import Community from "./pages/Community";
 import Contact from "./pages/Contact";
-<<<<<<< HEAD
-
-
-const router = createBrowserRouter(
-  createRoutesFromElements(
-<Route exact path="/" element={<App/>}>
-      
-      <Route exact path="home" element={<Home />} />
-         <Route exact path="service" element={<Service />} />
-         <Route exact path="community" element={<Community />} />
-         <Route exact path="about" element={<About />} />
-         <Route exact path="contact" element={<Contact />} />
-      
-    </Route>
-=======
 import Error from "./pages/Error";
 import Sign from "./pages/Sign";
 import Login from "./pages/Login";
+import Teachlogin from "./pages/Techer-login";
+import Register from "./pages/Register";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -42,10 +29,10 @@ const router = createBrowserRouter(
         <Route exact path="signup" element={<Sign />} />
         <Route exact path="login" element={<Login />} />
       <Route exact path="service" element={<Service />} />
-      <Route exact path="community" element={<Community />} />
+      <Route exact path="teachlogin" element={<Teachlogin />} />
+        <Route exact path="register" element={<Register />} />
       <Route exact path="about" element={<About />} />
       <Route exact path="contact" element={<Contact />} />
->>>>>>> 8f77fbefe98f355e827d8627e429571ac04fb978
 
       <Route path="*" element={<Error />} />
     </Route>

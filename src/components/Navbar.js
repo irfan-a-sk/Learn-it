@@ -110,7 +110,7 @@ function Navbar() {
               </li>
               <li>
                 <NavLink
-                  to="/community"
+                  to="/teachlogin"
                   className="block py-2 px-3 text-black-900 rounded hover:bg-blue-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-black dark:hover:bg-blue-700 dark:hover:text-blue md:dark:hover:bg-transparent"
                 >
                   Community
@@ -159,7 +159,7 @@ function Navbar() {
           </li>
           <li>
             <NavLink
-              to="/community"
+              to="/teachlogin"
               className="block py-2 px-3 text-black-900 rounded hover:bg-blue-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-black dark:hover:bg-blue-700 dark:hover:text-blue md:dark:hover:bg-transparent"
             >
               Community

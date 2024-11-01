@@ -168,7 +168,7 @@ const Signup = () => {
                 <input
                   type="text"
                   placeholder="Last name"
-                  className="block w-[300px] rounded-md border-0 py-1.5 pl-[10px] mt-[-25px] pr-20 text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm/6"
+                  className="block w-[300px] rounded-md border-0 py-1.5 pl-[10px] mt-[5px] pr-20 text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm/6"
                   required
                 />
               </div>
@@ -176,7 +176,7 @@ const Signup = () => {
                 <input
                   type="email"
                   placeholder="Email"
-                  className="block w-[300px] rounded-md border-0 py-1.5 pl-[10px] mt-[-25px] pr-20 text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm/6"
+                  className="block w-[300px] rounded-md border-0 py-1.5 pl-[10px] mt-[5px] pr-20 text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm/6"
                   required
                 />
               </div>
@@ -184,11 +184,11 @@ const Signup = () => {
                 <input
                   type="password"
                   placeholder="Password"
-                  className="block w-[300px] rounded-md border-0 py-1.5 pl-[10px] mt-[-25px] pr-20 text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm/6"
+                  className="block w-[300px] rounded-md border-0 py-1.5 pl-[10px] mt-[5px] pr-20 text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm/6"
                   required
                 />
               </div>
-              <div className="relative mt-1 rounded-md shadow-sm">
+              <div className="relative mt-[20px] rounded-md shadow-sm">
                 <Link to="/">
                   <p className="text-[16px] text-center text-white p-[10px] py-[5px] w-[300px] border-2 border-blue-700 bg-blue-700 hover:bg-blue-800 rounded-lg ">
                     Sign up
@@ -197,7 +197,7 @@ const Signup = () => {
                 <h3 className="text-center text-[15px] mt-[10px]">
                   By signing up you agree to our<Link to="/" className="text-blue-700 font-semibold underline"> Terms of Service </Link>and <Link to="/"  className="text-blue-700 font-semibold underline">Privacy Policy.</Link>
                 </h3>
-                <h3 className=" relative text-center text-[15px] mt-[10px]"> <input type="checkbox"  class="absolute right-[25%] top-[25%]" /> Email me with news and updates</h3>
+                <h3 className=" relative text-center text-[15px] mt-[10px]"> <input type="checkbox"  class="absolute left-[10%] top-[25%]" /> Email me with news and updates</h3>
              
               </div>
             </div>

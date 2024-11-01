@@ -19,14 +19,14 @@
     
     
 }
-input{
+.inputs{
     border-bottom: 1px solid black;
     outline: none;
     padding-bottom: 0px;
     margin-bottom: 30px;
     width: 370px;
 }
-textarea{
+.msg{
     outline: none;
     border-bottom: 1px solid black;
     width: 370px;
@@ -45,7 +45,7 @@ textarea{
     padding-right: 50px;
 
 }
-button{
+.btn{
     display: block;
     margin: auto;
     border: 1px solid black;
@@ -53,7 +53,7 @@ button{
     width: 170px;
     transition: 0.3;
 }
-button:hover{
+.btn:hover{
     background-color: #71b9b3;
 }
 .contact{
